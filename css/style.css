@@ -1,0 +1,324 @@
+        /* google font import */
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+        body{
+            font-family: 'Poppins', sans-serif;
+            padding: 0;
+            margin: 0;
+            background-color: whitesmoke;
+   
+        } 
+        /*  header section  */
+
+       
+       .banner{
+        background-color: #2D25A0;
+       }
+      
+      .banner-section h1{
+        font-size: 50px;
+        margin-bottom: 27px;
+        color: #ddd;
+       }
+       .title{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-left: 100px;
+        padding-top: 95px;
+        padding-bottom: 75px;
+         padding-bottom: 86px;
+       } 
+       .banner-image{
+        transition: transform 2s ease-in-out;
+        /* background-color: #2D25A0; */
+       }
+
+       .banner-image:hover{
+        transform: scale(0.8) ;
+       }
+
+       .banner-image img{
+        width: 556.01px;
+        height: 438px;
+       }
+       .watch-live{
+           background-color: #E02C6D;
+           border:0px;
+           padding: 10px 24px;
+           transition: transform 2s ease;
+           border-radius: 2px;
+           
+           
+       }
+       .watch-live:hover{
+        transform: scale(0.8);
+        
+    } 
+        .watch-live a{
+        text-decoration: none;
+        color: #ddd;
+        font-weight: 500px;
+        font-size: 16px;
+    }
+    .watch-live span{
+        margin-left: 8px; 
+    }  
+
+
+                                            /* main section  */
+
+    .container{
+        
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 75px;
+    padding-bottom: 40px;
+    
+    } 
+
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: center;
+        grid-column-gap: 30px;
+        grid-row-gap: 27px;
+    }
+
+    .player-gallery{
+        width: 300px;
+        height: 474px;
+        text-align: justify;
+        padding: 15px 15px 33px 15px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15); ;
+        
+        
+    }
+    .player-gallery img{
+        width: 300px;
+        height: 256px;
+        
+        
+        
+    }
+    .player-gallery h3{
+        padding-left: 3px;
+        font-size: 28px;
+    }
+    .player-gallery p{
+        padding-left: 3px;
+        color: #6C6C6C;
+        font-size: 16px;
+    }
+
+    /* Club Contact */
+    
+    .club-contact-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        grid-column-gap: 60px;
+        margin-left: 50px;
+        background-color: #ddd;
+        margin-bottom: 50px;
+        
+        
+        
+    }
+    .live-match{
+        text-align: center;
+        font-size: 20px;
+        
+        
+    }
+
+    .live-match img{
+        width: 300px;
+        height: 300px;
+        margin-top: 60px;
+    }
+
+     /* contact form  */
+    .contact-form{
+        padding-left: 20px;
+        width: 500px;
+        height: 615px;
+        
+        text-align: center; 
+        
+    }
+    .contact-form h2{
+       margin-bottom: 70px;
+       font-size: 28px;
+        
+    }
+    .contact input{
+        width: 400px;
+        height: 40px;
+        padding: 10px;
+        border: 0;
+        border-bottom: 1px solid red;
+        outline: 0;
+        border-radius: 5px;
+        background-color: black;
+        color: #ddd;
+    }
+    textarea{
+        width: 400px;
+        height: 100px;
+        padding: 10px;
+        border: 0;
+        border-bottom: 1px solid red;
+        outline: 0;
+        background-color: black;
+        color: #ddd;
+    }
+    button{
+        background-color: #E02C6D;
+           border:0px;
+           padding: 10px 24px;
+           transition: transform 2s ease;
+           border-radius: 2px;
+    }
+    button:hover{
+        transform: scale(0.8);
+    }
+
+                /* Footer */
+
+
+    .footer-img{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 110px;
+        
+
+    }
+    .social-icon{
+        display: flex;
+        justify-content: center;
+        grid-gap: 41px;
+        padding: 20px 20px 20px 20px;
+        margin-left: 30px;
+        margin-top: 40px;
+       
+        
+    }
+
+    .social-icon img{
+        width: 32px;
+        height: 32px;
+    }
+
+    .copy{
+        text-align: center;
+        margin-left: 35px;
+    }
+
+    /* media queries */
+
+    /* mobile device */
+   
+@media screen and  (max-width: 680px) {
+   
+
+    .container{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        width: 100%;
+        
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        overflow-x: hidden;
+          
+    }
+    
+    .title{
+        
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 70px;
+        padding-right: 100px;
+        margin-left:40px;
+        
+    }
+    h1{
+        font-size: 24px;
+    }
+
+    .banner-image img{
+        width: 329px;
+        height: 259.17px;
+        
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+       
+        
+       
+    }
+    .player-gallery{
+        width: fit-content;
+    }
+    
+
+    .club-contact-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        overflow-x: hidden;
+        
+        
+    }
+
+    .live-match{
+        margin-right: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+    .contact-form{
+        margin-right: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+   
+
+    .contact-form input{
+        padding: 20px;
+        width: 200px;
+
+    }
+
+    textarea{
+        width: 200px;
+        padding: 20px;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .footer-img > img {
+        width: 250px;
+        
+    }
+    
+}
+
+    
+
+    
+       
+
+
